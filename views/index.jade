@@ -1,0 +1,33 @@
+extends ../layouts/default
+
+block head
+  title Drywall is Running
+
+block neck
+  link(rel='stylesheet', href='/views/index.min.css?#{cacheBreaker}')
+
+block body
+  div.jumbotron
+    h2 Success!
+    p.lead
+      | Your Node.js website and user system is running. May the force be with you.
+      div.clearfix
+  div.row
+    div.col-sm-4
+      div.panel.panel-default
+        div.panel-body
+          h3 About Us
+          p We are a new company with big ideas and expert staff.  Here's how we plan to change the world.
+          a.btn.btn-default.btn-block(href='/about/') Learn More
+    div.col-sm-4
+      div.panel.panel-default
+        div.panel-body
+          h3 Sign In
+          p Registered visitors sign in here to learn more about our technology and interact with the demo.
+          a.btn.btn-default.btn-block(href='/login/') Sign In
+    div.col-sm-4
+      div.panel.panel-default
+        div.panel-body
+          h3 Contact Us
+          p Write us a quick message and leave your email.  We'll register you for an early preview.
+          a.btn.btn-default.btn-block(href='/contact/') Contact Us

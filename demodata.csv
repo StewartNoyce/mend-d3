@@ -1,0 +1,13 @@
+name,num,isfriend
+candy,0.4,true
+thermos,0.1,true
+iron,0.4,false
+jackal,0.5,false
+heretic,0.6,false
+parent,0,8,true
+thermoactinomyces,0.2,false
+treponema,0.3,false
+serendipity,0.6,true
+berkeley,0.8,true
+coffee,0.9,true
+balrog,0.9,true

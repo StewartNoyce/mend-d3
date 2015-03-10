@@ -1,0 +1,15 @@
+extends ../../../layouts/account
+
+block head
+  title Demo - D3 Visualization
+
+block neck
+  link(href='/views/account/demo/index.css?#{cacheBreaker}', rel='stylesheet')
+
+block feet
+  script(type='text/javascript', src='//cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js?#{cacheBreaker}')
+  script(type='text/javascript', src='/views/account/demo/index.js?#{cacheBreaker}')
+
+block body
+  h1 Demo Data
+  div#demodata
